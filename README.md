@@ -1,4 +1,4 @@
-# Full Stack Lecture Scheduling app
+# Full Stack Job posting app
 
 This repository contains the code for a full stack web application built with a frontend using next js and a backend using Node.js. The frontend is developed with `npm run dev` and the backend is initiated with `npm start`. The application utilizes MongoDB as its database.
 
