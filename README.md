@@ -18,4 +18,13 @@ This repository contains the code for a full stack web application built with a 
 
 
 # you have to add super admin first 
-use this route and postman to add super admin to access thr admin panel http://localhost:9000/
+use this route and postman to add super admin to access thr admin panel http://localhost:9000/api/auth/register  
+
+send this data in body 
+
+{
+  "name":"super admin", //admin name
+  "email": "test@gmail.com", //change to your user
+  "password": "1234", //chane to your pass
+  "role":"admin" // role admin {required } by default its user
+} 
